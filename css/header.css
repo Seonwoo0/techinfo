@@ -1,0 +1,22 @@
+.heading {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+  }
+  
+ .heading::before,
+ .heading::after {
+    content: '';
+    width: 500px;
+    height: 10px;
+    background-color: #66e546;
+  }
+   
+  .heading::before {
+    margin-right: 30px;
+  }
+   
+  .heading::after {
+    margin-left: 30px;
+  }
